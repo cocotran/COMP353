@@ -1,67 +1,67 @@
 INSERT INTO adopter
 VALUES
 (
-226, 'name1', 7566, 'city219', 'JLJGCA', 'EF', 5590643872, 0
+123493789, 'name1', 7566, 'city219', 'JLJGCA', 'EF', 5590643872, 5
 );
 
 /* INSERT QUERY NO: 2 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
-134, 'name2', 1558, 'city306', 'PVAOAI', 'QD', 0607389162, 0
+199456749, 'name2', 1558, 'city306', 'PVAOAI', 'QD', 0607389162,3
 );
 
 /* INSERT QUERY NO: 3 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
-188, 'name3', 4920, 'city611', 'GDZNQF', 'SV', 7615040543, 0
+999456749, 'name3', 4920, 'city611', 'GDZNQF', 'SV', 7615040543, 2
 );
 
 /* INSERT QUERY NO: 4 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
-121, 'name4', 8493, 'city142', 'EEZSTI', 'FU', 4893597305, 0
+928456789, 'name4', 8493, 'city142', 'EEZSTI', 'FU', 4893597305, 1
 );
 
 /* INSERT QUERY NO: 5 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
-161, 'name5', 477, 'city858', 'KNUAJX', 'FP', 5483777766, 0
+253456700, 'name5', 477, 'city858', 'KNUAJX', 'FP', 5483777766, 3
 );
 
 /* INSERT QUERY NO: 6 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
-165, 'name6', 7471, 'city421', 'JOJYLN', 'QN', 9429660494, 0
+523456888, 'name6', 7471, 'city421', 'JOJYLN', 'QN', 9429660494, 3
 );
 
 /* INSERT QUERY NO: 7 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
-75, 'name7', 2474, 'city917', 'MKPECU', 'KC', 7131837882, 0
+520010789, 'name7', 2474, 'city917', 'MKPECU', 'KC', 7131837882, 1
 );
 
 /* INSERT QUERY NO: 8 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
 2, 'name8', 4734, 'city839', 'FHQMNA', 'HR', 0616427513, 0
 );
 
 /* INSERT QUERY NO: 9 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
-60, 'name9', 310, 'city453', 'KPUMAE', 'AV', 0328615090, 0
+578956789, 'name9', 310, 'city453', 'KPUMAE', 'AV', 0328615090, 0
 );
 
 /* INSERT QUERY NO: 10 */
-INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
+INSERT INTO adopter
 VALUES
 (
 166, 'name10', 3875, 'city996', 'BGFUZX', 'CZ', 8356268016, 0
@@ -169,14 +169,14 @@ VALUES
 INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
 VALUES
 (
-110, 'name25', 2874, 'city1', 'DMSCSN', 'BQ', 1443946015, 0
+110, 'name25', 2874, 'city1', 'DMSCSN', 'BQ', 1443946015, 3
 );
 
 /* INSERT QUERY NO: 26 */
 INSERT INTO adopter(SIN, name, address, city, `postal code`, province, phone, animalCount)
 VALUES
 (
-87, 'name26', 5507, 'city82', 'WTUANB', 'KC', 5697831777, 0
+87, 'name26', 5507, 'city82', 'WTUANB', 'KC', 5697831777, 6
 );
 
 /* INSERT QUERY NO: 27 */
@@ -1092,73 +1092,73 @@ VALUES
 -- --------------------------------
 
 /* INSERT QUERY NO: 1 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID1', 'type6', 'Female', 1
+1, 'type6', 'Female', 1
 );
 
 /* INSERT QUERY NO: 2 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID2', 'type6', 'Male', 2
+2, 'type6', 'Male', 2
 );
 
 /* INSERT QUERY NO: 3 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID3', 'type6', 'Male', 3
+3, 'type6', 'Male', 3
 );
 
 /* INSERT QUERY NO: 4 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID4', 'type6', 'Female', 4
+4, 'type6', 'Female', 4
 );
 
 /* INSERT QUERY NO: 5 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID5', 'type6', 'Male', 5
+5, 'type6', 'Male', 5
 );
 
 /* INSERT QUERY NO: 6 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID6', 'type3', 'Female', 6
+6, 'type3', 'Female', 6
 );
 
 /* INSERT QUERY NO: 7 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID7', 'type4', 'Female', 7
+7, 'type4', 'Female', 7
 );
 
 /* INSERT QUERY NO: 8 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID8', 'type5', 'Female', 8
+8, 'type5', 'Female', 8
 );
 
 /* INSERT QUERY NO: 9 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID9', 'type3', 'Male', 9
+9, 'type3', 'Male', 9
 );
 
 /* INSERT QUERY NO: 10 */
-INSERT INTO animals(aID, type, gender, chipNo)
+INSERT INTO animals
 VALUES
 (
-'aID10', 'type4', 'Female', 10
+10, 'type4', 'Female', 10
 );
 
 /* INSERT QUERY NO: 11 */
@@ -8370,70 +8370,70 @@ VALUES
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID40', '2007-04-15', 'locID2', 0
+1, '2007-04-15', 1, 0
 );
 
 /* INSERT QUERY NO: 41 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID41', '2002-01-29', 'locID4', 0
+2, '2002-01-29', 2, 0
 );
 
 /* INSERT QUERY NO: 42 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID42', '2001-05-22', 'locID5', 130
+3, '2001-05-22', 3, 130
 );
 
 /* INSERT QUERY NO: 43 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID43', '2002-01-19', 'locID4', 0
+4, '2002-01-19', 1, 0
 );
 
 /* INSERT QUERY NO: 44 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID44', '2003-03-04', 'locID5', 0
+5, '2003-03-04', 3, 0
 );
 
 /* INSERT QUERY NO: 45 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID45', '2017-11-07', 'locID1', 0
+6, '2017-11-07', 2, 0
 );
 
 /* INSERT QUERY NO: 46 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID46', '2011-11-27', 'locID3', 157
+7, '2011-11-27', 4, 157
 );
 
 /* INSERT QUERY NO: 47 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID47', '2008-04-15', 'locID2', 0
+8, '2008-04-15', 5, 0
 );
 
 /* INSERT QUERY NO: 48 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID48', '2015-09-02', 'locID1', 0
+9, '2015-09-02', 2, 0
 );
 
 /* INSERT QUERY NO: 49 */
 INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
 VALUES
 (
-'aID49', '2008-01-20', 'locID4', 0
+10, '2008-01-20', 1, 0
 );
 
 /* INSERT QUERY NO: 50 */
@@ -8773,10 +8773,10 @@ VALUES
 );
 
 /* INSERT QUERY NO: 98 */
-INSERT INTO admission(animalID, dateAdmitted, locID, prevOwnerSIN)
+INSERT INTO admission
 VALUES
 (
-'aID98', '2010-06-14', 'locID1', 27
+1, '2020-12-31', 3, 27
 );
 
 /* INSERT QUERY NO: 99 */
@@ -11599,28 +11599,28 @@ VALUES
 INSERT INTO adoption(animalID, SIN, adoptDate)
 VALUES
 (
-'aID1', 226, '2020-07-27'
+ 1, '123456789', '2020-07-27'
 );
 
 /* INSERT QUERY NO: 2 */
 INSERT INTO adoption(animalID, SIN, adoptDate)
 VALUES
 (
-'aID2', 134, '2020-02-03'
+2, '123456749', '2020-07-27'
 );
 
 /* INSERT QUERY NO: 3 */
 INSERT INTO adoption(animalID, SIN, adoptDate)
 VALUES
 (
-'aID3', 188, '2020-08-04'
+6, '128456789', '2020-07-27'
 );
 
 /* INSERT QUERY NO: 4 */
 INSERT INTO adoption(animalID, SIN, adoptDate)
 VALUES
 (
-'aID4', 121, '2020-04-07'
+8, '523456789', '2020-07-27'
 );
 
 /* INSERT QUERY NO: 5 */

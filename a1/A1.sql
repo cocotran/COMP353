@@ -74,22 +74,23 @@ FROM    a1.tables;
 SELECT Animals.animalId, Animals.aType, Animals.chipNo, Adopter.adName
 FROM Animals
 LEFT JOIN Adoption ON Animals.animalID = Adoption.animalID
-INNER JOIN Adopter ON Adoption.SIN = Adopter.SIN
+LEFT JOIN Adopter ON Adoption.SIN = Adopter.SIN
 WHERE Animals.gender = 'Female';
 
 
 -- b) For the type of animals who have at least 20 of that type admitted by the HSO, List the
 -- total number of animals that have been admitted by that type. If the same animal has been
 -- admitted more than once, then count each admission of the same animal
-SELECT COUNT(Admission.animalID) 
-FROM Admission
-INNER JOIN Animals ON Admission.animalID = Animals.animalID
-WHERE COUNT(Animals.aType) >= 20;
+SELECT Animals.aType, COUNT(Animals.aType)
+FROM Animals
+-- INNER JOIN Animals ON Admission.animalID = Animals.animalID;
+GROUP BY Animals.aType;
+-- WHERE typeCount >= 20;
 
 
 -- c) For each city, list the total number of animals that the Adopters have before their last
 -- adoption. Display the results in increasing order by city 
-SELECT SUM(animalCount) AS animalSum
+SELECT Adopter.city, SUM(animalCount - 1) AS animalSum
 FROM Adopter
 GROUP BY city
 ORDER BY animalSum;
@@ -99,11 +100,12 @@ SELECT COUNT(animalID)
 FROM Admission
 WHERE dateAdmitted='2020-12-31';
 
+
 -- e) For each animal type, list the animal type and the total number of adoptions since Jan 1, 2010
 SELECT Animals.aType, COUNT(Adoption.animalID)
 FROM Animals
 JOIN Adoption ON Animals.animalID = Adoption.animalID
-WHERE Adoption.adoptDate >= '2010-01-01';
-
+WHERE Adoption.adoptDate >= '2010-01-01'
+GROUP BY Animals.aType;
 
 
