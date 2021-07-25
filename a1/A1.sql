@@ -81,11 +81,11 @@ WHERE Animals.gender = 'Female';
 -- b) For the type of animals who have at least 20 of that type admitted by the HSO, List the
 -- total number of animals that have been admitted by that type. If the same animal has been
 -- admitted more than once, then count each admission of the same animal
-SELECT Animals.aType, COUNT(Animals.aType)
-FROM Animals
--- INNER JOIN Animals ON Admission.animalID = Animals.animalID;
-GROUP BY Animals.aType;
--- WHERE typeCount >= 20;
+SELECT Animals.aType, COUNT(Animals.aType) AS typeCount
+FROM Admission
+INNER JOIN Animals ON Admission.animalID = Animals.animalID
+GROUP BY Animals.aType HAVING typeCount >= 20;
+
 
 
 -- c) For each city, list the total number of animals that the Adopters have before their last
